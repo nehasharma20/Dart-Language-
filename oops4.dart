@@ -16,6 +16,11 @@ class Addition {
 
 class Test {
   test() {
-    Addition.add();
+    Addition.add(); //global access  add method in another class
   }
+}
+
+void main() {
+  Test obj = Test();
+  obj.test();
 }
