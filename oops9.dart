@@ -28,8 +28,11 @@ void main() {
   print('name: ${jm.fruit}');
 }
 
+//constant constructor
 class jamun {
   final String? fruit;
 
   const jamun(this.fruit);
 }
+
+//constant constructor with named parameter can be done the same way with just name paramters in  const constructor
