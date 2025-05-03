@@ -1,4 +1,7 @@
 //Constant constructor in dart
+/*All properties of the class must be final.
+It does not have any body.
+Only class containing const constructor is initialized using the const keyword.*/
 class Point {
   final int x;
   final int y;
@@ -20,4 +23,13 @@ void main() {
 
   Point p4 = Point(2, 2);
   print("The p4 hash code is: ${p4.hashCode}");
+
+  const jamun jm = jamun("mango");
+  print('name: ${jm.fruit}');
+}
+
+class jamun {
+  final String? fruit;
+
+  const jamun(this.fruit);
 }
