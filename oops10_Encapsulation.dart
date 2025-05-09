@@ -1,4 +1,4 @@
-//Encapsulation in dart-- Hiding data inside a library(not in class). we can so it by--
+//Encapsulation in dart-- Hiding data inside a library(not in class). we can do it by--
 //1=Declaring the class properties as private by using underscore(_).
 //2=Providing public getter and setter methods to access and update the value of private property.
 // Getter methods are used to access the value of private property.
@@ -33,5 +33,10 @@ void main() {
   print("The Employee id is: ${em.getId()}");
   print("Employee name is : ${em.getName()}");
 }
+
+//Library -- By default, every .dart file is a library. 
+//A library is a collection of functions and classes.
+// A library can be imported into another library using the import keyword.
+
 
 //private property can only be access from its library, as in dart we use _ instead of private keyword
