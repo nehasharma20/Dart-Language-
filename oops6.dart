@@ -84,7 +84,7 @@ class MacBook extends Lapto {
 
 void main() {
   print('example1');
-  //example 1-here parent class constructor has been called by child class
+  //example 1-here parent class(laptop) constructor has been called by child class(mobile)
   Mobile mobileobj = Mobile();
   print('example 2');
   //example2
